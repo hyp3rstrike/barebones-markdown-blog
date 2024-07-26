@@ -114,6 +114,8 @@ This is your post body
 
 The name of the `.md` file will determine the page name when you visit your site (ie. hello-world.md will be `sitename.com/posts/hello-world`)
 
+The post metadata such as the post title and name are contained in the top of the file between the hyphen tags. The post body is below the meta section. Check out the [Markdown](https://www.markdownguide.org/) website for a rundown on how to format your posts.
+
 ## Learn More about NextJS
 
 To learn more about Next.js, take a look at the following resources:
