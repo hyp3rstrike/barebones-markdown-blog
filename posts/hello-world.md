@@ -1,6 +1,8 @@
 ---
 title: 'Hello World!'
 date: '2024-07-26'
+image: 'https://variety.com/wp-content/uploads/2017/09/supernatural-cw.jpg'
+tags: ['first post','sample post']
 ---
 
 # Heading 1 or H1

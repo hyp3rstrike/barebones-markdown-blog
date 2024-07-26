@@ -12,6 +12,8 @@ interface PostData {
   date: string;
   slug: string;
   content: string;
+  image?: string;
+  tags?: string[];
 }
 
 export function getPostSlugs(): string[] {
@@ -35,6 +37,8 @@ export function getPostBySlug(slug: string, fields: string[] = []): PostData {
     date: data.date as string,
     slug: realSlug,
     content: htmlContent,
+    image: data.image as string,
+    tags: data.tags as string[],
   };
 
   fields.forEach((field) => {
