@@ -100,6 +100,20 @@ const nextConfig = {
 export default nextConfig;
 ```
 
+## Writing content
+
+New posts can be created in the `posts/` directory with individual Markdown or `.md` files.
+
+```markdown
+---
+title: 'Hello World!'
+date: '2024-07-26'
+---
+This is your post body
+```
+
+The name of the `.md` file will determine the page name when you visit your site (ie. hello-world.md will be `sitename.com/posts/hello-world`)
+
 ## Learn More about NextJS
 
 To learn more about Next.js, take a look at the following resources:
